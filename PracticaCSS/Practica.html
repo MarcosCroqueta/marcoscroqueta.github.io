@@ -7,10 +7,13 @@
     <link href="Practica.css">
     <style>
 div.header{
+text-align: center;
 
-background-color: darkorchid;
-
-
+color: blue;
+padding: 15px;
+height: 250px;
+ width: 600px;
+margin: auto;
 }
 
 body {
@@ -19,7 +22,34 @@ body {
   background-attachment: fixed;
 
 }
+div.imagenmermela{
 
+float: right;
+
+}
+ul {
+
+  margin: 10px;
+  padding: 15px;
+  background-color: rgb(184, 141, 141);
+
+
+}
+li {
+  display: inline;
+margin: 0px;
+text-align: center;
+}
+li a {
+    text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: hotpink;
+}
 
 
     </style>
@@ -27,12 +57,22 @@ body {
 <body>
 
   <div  class="header">
-
-   <img src="Mermelada.jpeg" height="300">
-   <h1 style="text-align: right;font-size: xx-large;">Mermeladas JOVI</h1>
+   <a target="_blank" href="Mermelada.jpeg">
+    <img src="Mermelada.jpeg" id="Mermelada">
+  </a>
+  <div class="desc"><h1>MERMELADAS JOVI</h1></div>
   </div>  
 
-
+  <div class="menu">
+    
+  </div>
+  
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#produ">Productos</a></li>
+    <li><a href="#novedad">Novedades</a></li>
+    <li><a href="#oferta">Ofertas</a></li>
+  </ul>
 
 
 </body>
